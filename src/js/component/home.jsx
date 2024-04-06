@@ -3,6 +3,7 @@ import React from "react";
 import NavBar from "./navBar";
 import Jumbotron from "./jumbotron";
 import Card from "./card";
+import Footer from "./footer";
 
 const Home = () => {
 	const images = [
@@ -12,7 +13,7 @@ const Home = () => {
 		{ url: "https://theavh.org/wp-content/uploads/scaredy-cat.jpg", name: "Gatito tricolor" }
 	]
 	return (
-		<div >
+		<div>
 			<NavBar />
 			<div className="container">
 				<Jumbotron />
@@ -24,8 +25,9 @@ const Home = () => {
 					))}
 				</div>
 			</div>
+			<Footer />
 		</div>
-	);
+	);	
 };
 
 export default Home;
