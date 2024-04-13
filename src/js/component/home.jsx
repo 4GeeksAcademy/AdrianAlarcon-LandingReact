@@ -19,7 +19,7 @@ const Home = () => {
 				<Jumbotron />
 				<div className="row">
 					{images.map((image, index) => (
-						<div key={index} className="col-md-3 col-sm-6">
+						<div key={index} className="col-md-3 col-sm-6 mt-3">
 							<Card imageUrl={image.url} name={image.name} />
 						</div>
 					))}
