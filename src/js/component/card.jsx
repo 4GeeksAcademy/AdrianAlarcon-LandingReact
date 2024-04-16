@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ imageUrl, name }) => {
   return (
-    <div className="card " >
+    <div className="card mb-3" >
       <img src={imageUrl} className="card-img-top" alt="..." />
       <div className="card-body d-flex flex-column align-items-center">
         <h5 className="card-title">{name}</h5>
